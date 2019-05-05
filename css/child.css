@@ -285,6 +285,57 @@ seven columns
 
 }
 
+/* Press */
+
+.article-link {
+  width: 100%;
+  margin: 0;
+}
+
+.article-link img {
+  max-width: 100%;
+  max-height: 60px;
+}
+
+.article-link a {
+  color: #000;
+}
+
+.article-link a p {
+  color: #000;
+  margin-top: 0.2em;
+  margin-bottom: 3em;
+  font-weight: bold;
+}
+
+
+@media (min-width: 580px) {
+  .article-link {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 240px;
+  }
+  .article-link:first-child {
+    margin-left: 5%;
+  }
+  .article-link img {
+    max-height: initial;
+  }
+}
+
+@media (min-width: 1190px) {
+  .article-link {
+    width: 20%;
+    margin: 2%;
+    height: 200px;
+  }
+  .article-link:first-child {
+    margin-left: 2%;
+  }
+}
+
+
 /* Navigation */
 
 html {
