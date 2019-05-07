@@ -64,12 +64,13 @@ blockquote {
 
 .logo-text {
 	position:absolute;
-	left: 0px; 
-	top:20vh;
+	left: 0px;
+	top: 20vh;
 	z-index: 2;
 	width: 300px;
 	padding-left: 20px;
 	padding-right: 20px;
+  max-width: 300px;
 }
 
 .background-white {
@@ -275,15 +276,8 @@ seven columns
 	}
 }
 
-@media screen and (min-width: 800px) {
-  .logo-text {
-    top: 35vh;
-  }
-}
-
 .headline {
   margin-top: 2em;
-  font-weight: bold;
   font-size: 2.4rem;
   line-height: 1.35;
   margin-bottom: 1rem;
