@@ -110,6 +110,10 @@ li {
 	float: right;
 }
 
+.padding-t-3  {
+  padding-top: 3vh;
+}
+
 .padding-t-10  {
 	padding-top: 10vh;
 }
@@ -136,6 +140,10 @@ li {
 
 .padding-r-20px {
 	padding-right: 20px;
+}
+
+.margin-b-3 {
+  margin-bottom: 3vh;
 }
 
 .center {
